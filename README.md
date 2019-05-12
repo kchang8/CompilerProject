@@ -2,13 +2,11 @@
 
 # Overview of zip file
 The zip file contains:
-- A c++ program that gets rid of white spaces from a given file "Incorrect_code.txt"
+- A c++ program that gets rid of white spaces from a given file ```Incorrect_code.txt```
 - Our lex and yacc files that check the white-space free file for syntax errors and converts the fixed file to a c++ program
 - A Valid_Code.txt which is the correct file output we want to analyze with no errors and to convert to c++ program, aba13.cpp
 - A Makefile that contains all the compile and execute commands that will run all our code automatically with the command
-```
-make all
-```
+```make all```
 
 **OTHER FILES IN FOLDER**
 - lex.yy.c, y.tab.c, and y.tab.h are generated from the lex and yacc files by running the commands listed below 
